@@ -1,0 +1,40 @@
+{
+	"name":             "pattern-lab/starterkit-mustache-materialdesign",
+	"description":      "The Mustache-based Material Design StarterKit for Pattern Lab.",
+	"keywords":         ["mustache", "pattern lab", "starterkit", "materialdesign", "material design"],
+	"homepage":         "http://patternlab.io",
+	"license":          "MIT",
+	"type":             "patternlab-starterkit",
+	"authors": [
+		{
+			"name":         "Dave Olsen",
+			"email":        "dmolsen@gmail.com",
+			"homepage":     "http://dmolsen.com",
+			"role":         "Lead Developer"
+		},
+		{
+			"name":         "Brad Frost",
+			"homepage":     "http://bradfrost.com",
+			"role":         "Creator"
+		}
+	],
+	"support": {
+		"issues":         "https://github.com/pattern-lab/starterkit-mustache-materialdesign/issues",
+		"wiki":           "http://patternlab.io/docs/",
+		"source":         "https://github.com/pattern-lab/starterkit-mustache-materialdesign/releases"
+	},
+	"require": {
+		"pattern-lab/core": "dev-dev",
+		"pattern-lab/patternengine-mustache": "dev-dev"
+	},
+	"minimum-stability": "dev",
+	"extra": {
+		"patternlab": {
+			"dist": {
+				"sourceDir": [
+					{ "*": "*" }
+				]
+			}
+		}
+	}
+}
