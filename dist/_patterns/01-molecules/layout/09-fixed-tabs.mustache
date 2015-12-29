@@ -1,0 +1,23 @@
+<!-- Simple header with fixed tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">{{ title }}</span>
+    </div>
+    <!-- Tabs -->
+    {{> molecules-tabs }}
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">{{ title }}</span>
+  </div>
+  <main class="mdl-layout__content">
+	{{# contentList }}
+    <section class="mdl-layout__tab-panel {{ activeClass }}" id="{{ url }}">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+    {{/ contentList }}
+
+  </main>
+</div>
