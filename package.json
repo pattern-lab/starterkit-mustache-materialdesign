@@ -1,0 +1,22 @@
+{
+  "name": "starterkit-mustache-materialdesign",
+  "version": "0.1.0",
+  "description": "A Material Design starter kit for Pattern Lab",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pattern-lab/starterkit-mustache-materialdesign.git"
+  },
+  "keywords": [
+    "Pattern Lab",
+    "Atomic Design",
+    "Mustache",
+    "Material Design",
+    "Starterkit"
+  ],
+  "author": "Ian Frost",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pattern-lab/starterkit-mustache-materialdesign/issues"
+  },
+  "homepage": "https://github.com/pattern-lab/starterkit-mustache-materialdesign#readme"
+}
