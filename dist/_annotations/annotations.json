@@ -1,4 +1,4 @@
-var comments = {
+{
 "comments" : [
 	{
 		"el": "header[role=banner]",
@@ -31,4 +31,4 @@ var comments = {
 		"comment": "<p>The hero area highlights one major story using a large image and a captivating headline.</p>"
 	}
 ]
-};
+}
